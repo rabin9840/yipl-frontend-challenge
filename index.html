@@ -40,6 +40,7 @@
             <div class="serviceContainer1">
 
                 <h1 class="services_head">Our Services</h1>
+                <hr>
 
                 <p>We provide to you the best choiches for you. 
                     Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors 
@@ -96,6 +97,7 @@
             </div>
             <div class="container">
                 <h1>Leading healthcare providers</h1>
+                <hr style="margin-left: 70px;">
                 <p class="information">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride 
                     in the solutions we deliver</p>
                 <button class="button3">Learn more</button>
@@ -106,6 +108,7 @@
             <div class="container">
                 <h1>Download our 
                     mobile apps</h1>
+                    <hr style="margin-left: 70px;">
                 <p class="information">Our dedicated patient engagement app and 
                     web portal allow you to access information instantaneously (no tedeous form, long calls, 
                     or administrative hassle) and securely</p>
@@ -155,7 +158,8 @@
                         up in the laboratory</h1>
 
                     <p>In this case, the role of the health laboratory is very important to do a disease detection...</p>
-                    <button class="button4">Download<span><img src="./assets/download.png"></span></button>
+                    <!-- <button class="button4">Read more<span><img src="./assets/readmore.png"></span></button> -->
+                    <a href="#" class="read_link">Read more<span><img src="./assets/readmore.png"></span></a>
 
                 </div>
                 <div class="articles">
@@ -164,7 +168,8 @@
                         safe for consumption</h1>
 
                     <p>Herbal medicine is very widely used at this time because of its very good for your health...</p>
-                    <button class="button4">Download<span><img src="./assets/download.png"></span></button>
+                    <a href="#" class="read_link">Read more<span><img src="./assets/readmore.png"></span></a>
+                    
 
                 </div>
                 <div class="articles">
@@ -174,7 +179,8 @@
 
                     <p>A healthy lifestyle should start from now and also for your skin health.
                         There are some...</p>
-                    <button class="button4">Download<span><img src="./assets/download.png"></span></button>
+                    <a href="#" class="read_link">Read more<span><img src="./assets/readmore.png"></span></a>
+                    
 
                 </div>
             </div>
@@ -193,21 +199,42 @@
                 </p>
             </div>
 
-            <form class="contact-form" action="#" method="post">
-                <div class="form-group">
-                  <label for="name">Name</label>
-                  <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                  <label for="email">Email</label>
-                  <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                  <label for="message">Message</label>
-                  <textarea id="message" name="message" required></textarea>
-                </div>
-                <button type="submit">Submit</button>
-              </form>
+            <div class="contact_form">
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <div class="upper">
+                        <div class="name">
+                            <label for="name">Your Name</label><br>          
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="name">
+                            <label for="phone">Phone no</label><br>
+                            <input type="text" id="phone" name="phone">
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="form-group">
+                        
+                      <label for="email">Email ID</label><br>
+                      <input type="email" id="email" name="email" required>
+               
+                        
+                    </div>
+
+                    <div class="form-group">
+                        
+                            <label for="message">Message</label><br>
+                            <textarea id="message" name="message" required rows="20"></textarea>
+                
+
+
+                    </div>
+
+                    <button type="submit" class="button3" style="margin: auto; margin-top: 25px;">Send Message</button>
+                  </form>
+            </div>
+
               
         </section>
 
@@ -215,16 +242,57 @@
 
     <footer>
         <div class="footer_container">
-            <h1>footer element 1</h1>
-        </div>
-        <div class="footer_container">
-            <h1>footer element 2</h1>
-        </div>
-        <div class="footer_container">
+            <div class="footer_elements">
             <h1>
-                footer element 3
-            </h1>
+            <img src="./assets/logo.png" alt="company logo image">
+        </h1>
+            <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online 
+                for everyone</p>
+            <p>©Trafalgar PTY LTD 2020. All rights reserved</p>
         </div>
+
+    </div>
+        <div class="footer_container">
+            <div class="footer_elements">
+
+            
+            <h1>Company</h1>
+            <ul>
+                <li>About</li>
+                <li>Testimonials</li>
+                <li>Find a doctor</li>
+                <li>Apps</li>
+            </ul>
+        </div>
+    </div>
+
+        <div class="footer_container">
+            <div class="footer_elements">
+            <h1>
+                Region
+            </h1>
+            <ul>
+                <li>Indonesia</li>
+                <li>Singapore</li>
+                <li>Hongkong</li>
+                <li>Canada</li>
+            </ul>
+            </div>
+        </div>
+        <div class="footer_container">
+            <div class="footer_elements">
+
+            <h1>
+                Help
+            </h1>
+            <ul>
+                <li>Help center</li>
+                <li>Contact support</li>
+                <li>Instructions</li>
+                <li>How it works</li>
+            </ul>
+        </div>
+    </div>
     </footer>
     
 </body>
